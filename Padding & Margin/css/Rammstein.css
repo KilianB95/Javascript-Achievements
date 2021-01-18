@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 100px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 1200px;
+    background-image: url('../afb/Rammstein.jpg');
+    color: white;
+    padding-top: 120px;
+}
+.Rammsteiner {
+    /* background-color: rgba(0, 0, 0, 0.507); */
+    width: 200px;
+    cursor: pointer;
+}
+#Till {
+    margin-left: 750px;
+}
+h3, p {
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 0 3px black;
+}
+.naam {
+    border-left: solid 7px black;
+    padding-left: 9px;
+}
+#Richard {
+    margin-left: 700px;
+}
+#Paul {
+    margin-left: 650px;
+}
+#Flakeh {
+    margin-left: 600px;
+}
+#Oliver {
+    margin-left: 550px;
+}
+#Christoph {
+    margin-left: 500px;
+}
