@@ -1,0 +1,29 @@
+<html>
+    <head></head>
+    <body>
+        <label for="Health">Health Bar:</label>
+        
+        <meter id="health"
+               min="0" max="100"
+               value="100">  
+        </meter> 
+        <label for="Attack">Attack:</label>     
+        <input type="button" id="button"></input>
+        <h1 id = 'life'>..</h1>
+        
+        <script>
+            document.getElementById("button").addEventListener("click",(e)=>{
+                //Hier code om de meter leeg te maken
+                let health = document.getElementById("health");
+                 
+                health.value -=10;
+                
+                console.log(health.value);
+                if(parseInt(health.value) <= 0){
+                    document.getElementById('life').innerHTML = "Game Over";
+                } 
+                //Haal via het DOM de elementen binnen 
+            });       
+        </script>
+    </body>
+</html>
